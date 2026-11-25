@@ -1,0 +1,15 @@
+WEB DEMO - PROMOS Y CARTA
+=========================
+Abrir index.html en el navegador, o subir esta carpeta a cualquier hosting estatico
+(Netlify, Vercel, GitHub Pages, hosting comun).
+
+QUE EDITAR (todo dentro de index.html, bloque "CONFIGURACION EDITABLE" del script):
+- CFG.tel        -> numero de WhatsApp con codigo de pais, sin "+" ni espacios. Ej: 549342XXXXXXX
+- CFG.telTexto   -> texto del telefono que se muestra en Ubicacion.
+- Precios carta  -> en CARTA, cambiar p:null por el numero (ej. p:9500). Con null muestra "Consultar precio".
+- Fotos          -> en cada producto agregar f:"img/nombre.jpg". Guardar las fotos en la carpeta img/.
+                    Ejemplo: {id:"p1",n:"Promo 1",e:"🍕",f:"img/promo1.jpg",p:27000,...}
+                    Sin foto se muestra un marcador con emoji.
+- Promo 2        -> confirmar si son 1/2 docena de cada tipo (la grafica original dice "11 doc").
+
+Las 10 promociones mantienen los productos y precios de la grafica original.
